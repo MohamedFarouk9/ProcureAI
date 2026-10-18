@@ -1,0 +1,17 @@
+{
+  "name": "procure-ai",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Multi-tenant Procurement & Inventory ERP with LLM copilot",
+  "engines": {
+    "node": ">=24.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @procure-ai/api run start:dev",
+    "build": "pnpm --filter @procure-ai/api run build",
+    "test": "pnpm --filter @procure-ai/api run test",
+    "test:e2e": "pnpm --filter @procure-ai/api run test:e2e",
+    "lint": "pnpm -r run lint"
+  }
+}
